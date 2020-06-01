@@ -1,0 +1,13 @@
+yarn add typescript -D
+
+yarn add @types/express -D
+
+yarn add ts-node -D
+
+npx tsc --init -----> arquivo de configuração do typescript
+
+npx ts-node src/server.ts -----> para rodar o projeto
+
+yarn add ts-node-dev -D
+
+npx ts-node-dev src/server.ts -----> para rodar o projeto com reload automático
